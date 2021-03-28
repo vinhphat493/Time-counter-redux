@@ -1,0 +1,21 @@
+.Button {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  font-weight: 700;
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.Button:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .Button {
+    font-size: 14px;
+  }
+}

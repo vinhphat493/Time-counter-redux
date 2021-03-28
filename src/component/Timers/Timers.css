@@ -1,0 +1,35 @@
+.Timers {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Timers__container {
+  padding: 15px;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px #000;
+}
+
+.title_introduct--right {
+  text-align: right;
+}
+
+.Timers__row {
+  display: flex;
+  flex-direction: row;
+  width: 832px;
+  max-width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+@media (min-width: 768px) {
+  .Timers {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  .Timers__container {
+    padding: 20px 30px 30px;
+  }
+}
